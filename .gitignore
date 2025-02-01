@@ -1,0 +1,35 @@
+# Ignore system files and IDE settings
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore Eclipse and IntelliJ IDEA settings
+.settings/
+.idea/
+.project
+.classpath
+
+# Ignore build files
+target/
+bin/
+out/
+
+# Ignore compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore Maven and Gradle dependencies
+.mvn/
+.gradle/
+*.iml
+
+# Ignore test outputs and reports
+test-output/
+surefire-reports/
+reports/
+screenshots/
+
+# Ignore node_modules if any frontend dependencies exist
+node_modules/
